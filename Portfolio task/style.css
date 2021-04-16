@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(36, 34, 34);
+}
+
+main {
+  width: 97%;
+  margin: auto;
+  background: #ffff;
+}
+
+.container {
+  border: 20px solid lightgrey;
+  border-radius: 15px;
+  width: 95%;
+  margin: auto;
+  line-height: 20px;
+  background: #ffff;
+}
+
+.header {
+  margin: 1rem 2rem;
+  text-align: center;
+}
+
+.header .contacts {
+  color: rgb(102, 96, 96);
+}
+
+.header-div {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.header-div-1 {
+  width: 88%;
+  border: 1px solid grey;
+}
+
+.header-div-1 .name {
+  padding: 25px 0;
+}
+.header-div-1 .address {
+  padding: 10px 0;
+  background: #767973;
+}
+
+.header-div-2 {
+  width: 10%;
+  background-color: #dde0a9;
+  border: 1px solid rgb(26, 25, 25);
+}
+
+.dates {
+  float: right;
+}
+
+.profile,
+.education,
+.skills-interests,
+.work-experience {
+  margin: 2rem;
+}
+
+.profile div,
+.education div,
+.skills-interests div,
+.work-experience div {
+  margin: 0.6rem 0;
+}
+
+.skills-interests div ul,
+.work-experience div ul {
+  margin: 0.6rem 1rem;
+}
+.address{
+    color: whitesmoke;
+}
+.name{
+    color: #777777;
+}
